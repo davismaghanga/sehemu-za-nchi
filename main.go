@@ -46,7 +46,7 @@ func main() {
 func ShowRegions(w http.ResponseWriter, r *http.Request){
 
 	//establish the database connection
-	db, err := sql.Open("mysql", "root:@/sales")
+	db, err := sql.Open("mysql", "root:adminadmin@/sales")
 	if(err!=nil){
 		panic("The database connection could not be established")
 	}
@@ -91,7 +91,7 @@ func ShowRegions(w http.ResponseWriter, r *http.Request){
 func ShowCounties(w http.ResponseWriter, r *http.Request){
 
 //establish the database connection
-	db, err := sql.Open("mysql", "root:@/sales")
+	db, err := sql.Open("mysql", "root:adminadmin@/sales")
 	if(err!=nil){
 		panic("The database connection could not be established")
 	}
@@ -130,7 +130,7 @@ func ShowCounties(w http.ResponseWriter, r *http.Request){
 
 func ShowSubCounties(w http.ResponseWriter, r *http.Request){
 	//establish the database connection
-	db, err := sql.Open("mysql", "root:@/sales")
+	db, err := sql.Open("mysql", "root:adminadmin@/sales")
 	if(err!=nil){
 		panic("The database connection could not be established")
 	}
