@@ -1,3 +1,3 @@
 # sehemu-za-nchi
 
-This is an API that should expose regions,counties and subcounties in Kenya.
+This is an API that exposes regions,counties and subcounties in Kenya.
