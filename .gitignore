@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv1/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Docker-related ignores
+*.env             # Catches any .env files you might create
+*.log
+# If you had a line like 'data/' here, remove it.
+# We want to include the specific .sql files in data/.
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# IDE specific files (e.g., PyCharm)
+.idea/
+.vscode/
+
+# Docker build cache (usually handled by Docker itself, but good to explicitly ignore)
+.dockerignore
